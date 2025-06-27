@@ -41,14 +41,14 @@ main{
 
 /* Tarjetas de producto visuales y con efecto hover */
 .card {
-    background-color: white;
+    background-color: #f5f5f5;
     padding: 30px;
-    border: 1px solid #ccc;
+    border: 1px solid #ddd;
     border-radius: 12px;
     text-align: center;
     font-size: 18px;
     color: #1B293B;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
 }
 

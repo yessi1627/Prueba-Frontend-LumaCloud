@@ -1,0 +1,21 @@
+/* Estilos generales*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #1B293B;
+}
+
+/* Estilos del header con colores de branding Luma Cloud */
+header {
+    background-color: #1D72D1;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}

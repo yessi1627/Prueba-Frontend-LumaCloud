@@ -5,7 +5,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1>Mi Contador en React</h1>
+      <h1>Contador en React</h1>
       <CounterCard title="Contador LumaCloud" initialValue={0} />
     </div>
   );

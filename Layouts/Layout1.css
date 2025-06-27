@@ -19,3 +19,28 @@ header {
     color: white;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
+/* Aquí empiezo a maquetar el grid de productos */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 40px;
+}
+
+/* Tarjetas de producto visuales y con efecto hover */
+.card {
+    background-color: white;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 18px;
+    color: #1B293B;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    border-color: #1D72D1;
+}

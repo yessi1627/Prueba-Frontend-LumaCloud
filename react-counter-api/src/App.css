@@ -1,48 +1,42 @@
-/* estilos genrales */
+/* Estilos basicos del contenedor */
 .App {
   text-align: center;
   padding: 50px;
   background-color: #f0f4f8;
   min-height: 100vh;
-  font-family: 'Segoe UI';
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Estilos de la tarjeta del contador */
-.counter-card {
-  background-color: #ffffff;
-  border-radius: 12px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 30px;
-  margin: 0 auto;
-  max-width: 300px;
+.App h1 {
+  margin-bottom: 30px;
+  color: #1D72D1;
 }
 
-.counter-card h2 {
+.App h2 {
   color: #1D72D1;
   margin-bottom: 20px;
 }
 
-.counter-card p {
-  font-size: 24px;
-  margin-bottom: 20px;
+ul {
+  list-style-type: none;
+  padding: 0;
 }
 
-.buttons {
-  display: flex;
-  justify-content: space-around;
-}
-
-.buttons button {
-  padding: 10px 20px;
-  background-color: #1D72D1;
-  color: #ffffff;
-  border: none;
+/* Estilos de cada tarjeta de noticia */
+li {
+  background-color: #ffffff;
+  margin: 10px auto;
+  padding: 15px;
   border-radius: 8px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  text-align: left;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.buttons button:hover {
-  background-color: #2a2869;
+/* Estilos para los mensajes de carga o error */
+p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  color: #d31010;
 }
-

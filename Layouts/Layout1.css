@@ -56,7 +56,7 @@ main{
     transform: scale(1.05);
     border-color: #1D72D1;
 }
-/* Footer moderno y atractivo */
+/* creación del ooter  */
 footer {
     background-color: #1B293B;
     color: white;
@@ -119,7 +119,7 @@ footer {
     padding-top: 10px;
 }
 
-/* Adaptación a dispositivos pequeños */
+/* Responsive a dispositivos pequeños */
 @media (max-width: 768px) {
     .footer-container {
         flex-direction: column;

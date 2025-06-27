@@ -37,3 +37,17 @@ body {
 .nav-menu a:hover {
     color: #2a72d4;
 }
+/* Botón  de iniciar sesión */
+.login-btn button {
+    background-color: #2a72d4;
+    color: #ffffff; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-btn button:hover {
+    background-color: #2a2869; 
+}

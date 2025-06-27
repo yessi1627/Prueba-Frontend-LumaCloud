@@ -18,6 +18,31 @@ body {
     align-items: center;
     flex-wrap: wrap; /* se muestra el columna en las pantallas pequeñas (responsive) */
     gap: 20px; /* Espacio entre columnas */
-    padding: 40px;
+    padding: 60px 100px;;
     background-color: #e5f0ff; 
 }
+/* Columna izquierda del botón y el texto (titulo y parrafo) */
+.hero-text h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.hero-button {
+    background-color: #2a72d4; 
+    color: #ffffff; 
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.hero-button:hover {
+    background-color: #2a2869; 
+}
+

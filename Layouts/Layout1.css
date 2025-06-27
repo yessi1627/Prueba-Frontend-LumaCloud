@@ -136,6 +136,28 @@ header h1 {
     }
 }
 
+/* Responsive  escritorio: 3 columnas */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; /* Espacio entre las cards */
+    padding: 40px;
+}
+
+/* Responsive tablet: 2 columnas */
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* responsive celulare 1 columna */
+@media (max-width: 480px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+}
+
 
 /* Responsive del footer */
 @media (max-width: 768px) {

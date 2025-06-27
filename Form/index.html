@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario de Contacto</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="card">
+      <div class="left_section">
+        <h1>Contáctanos en Luma Cloud</h1>
+        <p>Estamos aquí para asesorarte, contactanos pronto nos comunicaremos contigo</p>
+
+        <form aria-label="Formulario de contacto accesible">
+          <fieldset>
+            <legend>Información de contacto</legend>
+
+            <div class="input_group">
+              <label for="nombre">Nombre completo</label>
+              <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre completo" required aria-required="true" aria-label="Nombre completo">
+            </div>
+
+            <div class="input_group">
+              <label for="correo">Correo electrónico</label>
+              <input type="email" id="correo" name="correo" placeholder="Escribe tu correo electrónico" required aria-required="true" aria-label="Correo electrónico">
+            </div>
+
+            <div class="input_group">
+              <label for="mensaje">Mensaje:</label>
+              <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje" required aria-required="true" aria-label="Mensaje"></textarea>
+            </div>
+
+            <button type="submit" aria-label="Enviar formulario de contacto">Enviar</button>
+          </fieldset>
+        </form>
+      </div>
+      <div class="information_card">
+        <h2>Contacto Luma Cloud</h2>
+        <p><i class="fas fa-phone"></i> 3185958261</p>
+        <p><i class="fas fa-envelope"></i> info@lumacloud.co</p>
+        <p><i class="fas fa-map-marker-alt"></i> Sedes en Colombia, USA y LATAM</p>
+        <div class="social_icons">
+          <i class="fab fa-facebook-f" aria-label="Facebook"></i>
+          <i class="fab fa-twitter" aria-label="Twitter"></i>
+          <i class="fab fa-instagram" aria-label="Instagram"></i>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>

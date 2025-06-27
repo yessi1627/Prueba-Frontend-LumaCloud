@@ -118,8 +118,26 @@ footer {
     border-top: 1px solid rgba(255, 255, 255, 0.2);
     padding-top: 10px;
 }
+/* Tamaño normal de pantalla de escritorio */
+header h1 {
+    font-size: 32px;
+}
 
-/* Responsive a dispositivos pequeños */
+/* Responsive header tablet y móvil */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 24px; /*tamaño de tablet*/
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 20px; /*tamaño de celulares*/
+    }
+}
+
+
+/* Responsive del footer */
 @media (max-width: 768px) {
     .footer-container {
         flex-direction: column;

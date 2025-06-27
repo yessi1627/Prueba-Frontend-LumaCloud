@@ -1,14 +1,15 @@
 import React from 'react';
-import CounterCard from './CounterCard';
+import PostsList from './PostsList';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h1>Contador en React</h1>
-      <CounterCard title="Contador LumaCloud" initialValue={0} />
+      <h1>Noticias de LumaCloud</h1>
+      <PostsList />
     </div>
   );
 }
 
 export default App;
+

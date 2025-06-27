@@ -19,3 +19,21 @@ body {
     padding: 20px 40px;
     background-color: #f0f4f8;
 }
+
+
+/* estilo del nanvar */
+.nav-menu {
+    display: flex;
+    gap: 60px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-menu a:hover {
+    color: #2a72d4;
+}
